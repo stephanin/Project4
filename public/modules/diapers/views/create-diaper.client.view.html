@@ -1,0 +1,164 @@
+<section data-ng-controller="DiaperController">
+    <div class="page-header">
+        <h1>Track New Feeding Time</h1>
+    </div>
+    <div class="col-md-12">
+        <form class="form-horizontal" data-ng-submit="create()" novalidate>
+            <fieldset>
+
+
+
+<!-- 
+                <div class="form-group">
+                    <label class="control-label" for="name">Name</label>
+                    <div class="controls">
+                        <input type="text" data-ng-model="name" id="name" class="form-control" placeholder="Name" required>
+                    </div>
+                </div> -->
+
+
+
+                <div class="form-group">
+                     <label class="control-label" for="timeFeed">Time</label>
+                     <div class="controls">
+
+                        <select data-ng-model="amount" id="amount" class="form-control">
+                                <option value="0">0100</option>
+                                <option value="1">0130</option>
+                                <option value="2">0200</option>
+                                <option value="3">0230</option>
+                                <option value="4">0300</option>
+                                <option value="5">0330</option>
+                                <option value="6">0400</option>
+                                <option value="7">0430</option>
+                                <option value="8">0500</option>
+                                <option value="9">0530</option>
+                                <option value="10">0600</option>
+                                <option value="11">0630</option>
+                                <option value="12">0700</option>
+                                <option value="13">0730</option>
+                                <option value="14">0800</option>
+                                <option value="15">0830</option>
+                                <option value="16">0900</option>
+                                <option value="17">0930</option>
+                                <option value="18">1000</option>
+                                <option value="19">1030</option>
+                                <option value="20">1100</option>
+                                <option value="21">1130</option>
+                                <option value="22">1200</option>
+                                <option value="23">1230</option>
+                                <option value="24">1300</option>
+                                <option value="25">1330</option>
+                                <option value="26">1400</option>
+                                <option value="27">1430</option>
+                                <option value="28">1500</option>
+                                <option value="29">1530</option>
+                                <option value="30">1600</option>
+                                <option value="31">1630</option>
+                                <option value="32">1700</option>
+                                <option value="33">1730</option>
+                                <option value="34">1800</option>
+                                <option value="35">1830</option>
+                                <option value="36">1900</option>
+                                <option value="37">1930</option>
+                                <option value="38">2000</option>
+                                <option value="39">2030</option>
+                                <option value="40">2100</option>
+                                <option value="41">2130</option>
+                                <option value="42">2200</option>
+                                <option value="43">2230</option>
+                                <option value="44">2300</option>
+                                <option value="45">2330</option>
+                                <option value="46">2400</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+
+                    <div class="controls">
+                    <label class="control-label" for="bottle">Bottle</label>
+                    
+                        <input type="radio" value="true" data-ng-model="bottle" id="bottle" class="form-control" placeholder="bottle?">
+
+                        <pre>OR</pre>
+
+                    <label class="control-label" for="breast">Breast</label>
+                        <input type="radio" value="true" data-ng-model="breast" id="breast" class="form-control" placeholder="breast?">
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <label class="control-label" for="amount">Amount</label>
+                    <div class="controls">
+                        <!-- <input type="text" data-ng-model="amount" id="amount" class="form-control" placeholder="amounts" required> -->
+                        <select data-ng-model="amount" id="amount" class="form-control">
+                                <option value="0">5ml</option>
+                                <option value="1">10ml</option>
+                                <option value="2">15ml</option>
+                                <option value="3">20ml</option>
+                                <option value="4">25ml</option>
+                                <option value="5">30ml</option>
+                                <option value="6">35ml</option>
+                                <option value="7">40ml</option>
+                                <option value="8">45ml</option>
+                                <option value="9">50ml</option>
+                                <option value="10">55ml</option>
+                                <option value="11">60ml</option>
+                                <option value="12">65ml</option>
+                                <option value="13">70ml</option>
+                                <option value="14">75ml</option>
+                                <option value="15">80ml</option>
+                                <option value="16">85ml</option>
+                                <option value="17">90ml</option>
+                                <option value="18">95ml</option>
+                                <option value="19">100ml</option>
+                                <option value="20">105ml</option>
+                                <option value="21">110ml</option>
+                                <option value="22">115ml</option>
+                                <option value="23">120ml</option>
+                                <option value="24">125ml</option>
+                                <option value="25">130ml</option>
+                                <option value="26">135ml</option>
+                                <option value="27">140ml</option>
+                                <option value="28">145ml</option>
+                                <option value="29">150ml</option>
+                                <option value="30">155ml</option>
+                                <option value="31">160ml</option>
+                                <option value="32">165ml</option>
+                                <option value="33">170ml</option>
+                                <option value="34">175ml</option>
+                                <option value="35">180ml</option>
+                                <option value="36">185ml</option>
+                                <option value="37">190ml</option>
+                                <option value="38">195ml</option>
+                                <option value="39">200ml</option>
+                              
+                        </select>
+                    </div>
+                </div>
+
+
+
+ <!--                <div class="form-group">
+                    <label class="control-label" for="somethingElse">somethingElse</label>
+                    <div class="controls">
+                        <input type="radio" value="true" data-ng-model="honey" id="somethingElse" class="form-control" placeholder="somethingElse?">
+                    </div>
+                </div> -->
+
+
+
+                <div class="form-group">
+                    <input type="submit" class="btn btn-default">
+                </div>
+                <div data-ng-show="error" class="text-danger">
+                    <strong data-ng-bind="error"></strong>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</section>

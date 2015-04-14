@@ -1,0 +1,157 @@
+.content {
+	margin-top: 50px;
+}
+.undecorated-link:hover {
+	text-decoration: none;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+.ng-invalid.ng-dirty {
+	border-color: #FA787E;
+}
+.ng-valid.ng-dirty {
+	border-color: #78FA89;
+}
+
+
+
+
+body, ul.dropdown-menu {
+	background-color: #f0e8de;
+}
+
+header.navbar.navbar-fixed-top.navbar-inverse.ng-scope{
+	background: #f0e8de;
+	border-bottom: none;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand{
+	text-shadow: none;
+	color: #3aabc0;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-brand:hover{
+	text-shadow: none;
+	color: #ed145b;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover{
+	background:  #3aabc0;
+	color: #FFF;
+}
+
+.dropdown-menu > li > a:hover{
+	color: #3aabc0;
+	text-decoration: underline;
+	background: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	background: #3aabc0;
+	color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > .open > a:focus{
+	background: #3aabc0;
+	color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover{
+	background: #3aabc0;
+	color: #FFF;
+}
+
+.dropdown-menu .divider{
+	background-color: #ed145b;
+}
+
+.home-top{
+	text-align:center;
+	background-color: #f0e8de;
+}
+
+.home-top h1{
+	color: #3aabc0;
+}
+
+a.btn.btn-primary.btn-lg {
+	border: 2px solid #ed145b;
+	background: none;
+	color: #3aabc0;
+	text-shadow:none;
+	border-radius: 0px;
+}
+
+a.btn.btn-primary.btn-lg:hover {
+	border: 2px solid #ed145b;
+	background: #ed145b;
+	transition: background 0.5s ease;
+	color: #FFF;
+	text-shadow:none;
+}
+
+.home-bottom {
+	text-align: center;
+}
+
+.home-bottom h2{
+	color: #3aabc0;
+}
+
+.pink{
+	color: #ed145b;
+}
+
+a.btn.btn-default, .btn-primary {
+	border: 2px solid #ed145b;
+	background: none;
+	color: #3aabc0;
+	text-shadow:none;
+	border-radius: 0px;
+}
+
+a.btn.btn-default:hover, .btn-primary:hover {
+	border: 2px solid #ed145b;
+	background: #ed145b;
+	transition: background 0.5s ease;
+	color: #FFF;
+	text-shadow:none;
+}
+
+hr{
+	border-top: 1px solid #3aabc0;
+}
+
+.services{
+	border: 1px solid #3aabc0;
+	margin: 10px;
+	padding: 15px;
+	height: 250px;
+}
+
+h1, h3{
+	color: #3aabc0;
+}
+
+.page-header {
+	border-bottom: 1px solid #ed145b;
+}
+
+.alert-warning {
+	background: #f0e8de;
+	border: 1px solid #3aabc0;
+	color: #333;
+}
+
+.alert-warning a{
+	color: #ed145b;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #ed145b;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #3aabc0;
+}
