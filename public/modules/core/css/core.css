@@ -14,15 +14,18 @@
 	border-color: #78FA89;
 }
 
+.center-block {float: none !important}
+
 
 
 
 body, ul.dropdown-menu {
-	background-color: #f0e8de;
+	background-color: #374159;
+	color:#3aabc0;
 }
 
 header.navbar.navbar-fixed-top.navbar-inverse.ng-scope{
-	background: #f0e8de;
+	background: #374159;
 	border-bottom: none;
 }
 
@@ -33,7 +36,7 @@ header.navbar.navbar-fixed-top.navbar-inverse.ng-scope{
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-brand:hover{
 	text-shadow: none;
-	color: #ed145b;
+	color: #fff;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover{
@@ -41,9 +44,20 @@ header.navbar.navbar-fixed-top.navbar-inverse.ng-scope{
 	color: #FFF;
 }
 
-.dropdown-menu > li > a:hover{
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  	color: #fff;
+  	background-color: #3aabc0;
+}
+
+.dropdown-menu > li > a{
 	color: #3aabc0;
-	text-decoration: underline;
+	text-decoration: none;
+	background: none;
+}
+
+.dropdown-menu > li > a:hover{
+	color: #fff;
+	text-decoration: none;
 	background: none;
 }
 
@@ -63,12 +77,12 @@ header.navbar.navbar-fixed-top.navbar-inverse.ng-scope{
 }
 
 .dropdown-menu .divider{
-	background-color: #ed145b;
+	background-color: #4cd964;
 }
 
 .home-top{
 	text-align:center;
-	background-color: #f0e8de;
+	background-color: #374159;
 }
 
 .home-top h1{
@@ -76,15 +90,15 @@ header.navbar.navbar-fixed-top.navbar-inverse.ng-scope{
 }
 
 a.btn.btn-primary.btn-lg {
-	border: 2px solid #ed145b;
+	border: 2px solid #c643fc;
 	background: none;
-	color: #3aabc0;
+	color: #fff;
 	text-shadow:none;
 	border-radius: 0px;
 }
 
 a.btn.btn-primary.btn-lg:hover {
-	border: 2px solid #ed145b;
+	border: 2px solid #c643fc;
 	background: #ed145b;
 	transition: background 0.5s ease;
 	color: #FFF;
@@ -103,24 +117,65 @@ a.btn.btn-primary.btn-lg:hover {
 	color: #ed145b;
 }
 
-a.btn.btn-default, .btn-primary {
-	border: 2px solid #ed145b;
-	background: none;
+a{
 	color: #3aabc0;
-	text-shadow:none;
-	border-radius: 0px;
 }
 
-a.btn.btn-default:hover, .btn-primary:hover {
-	border: 2px solid #ed145b;
-	background: #ed145b;
-	transition: background 0.5s ease;
-	color: #FFF;
+a:hover{
+	color:#fff;
+}
+
+.btn-default{
+	border: 2px solid #4cd964;
+	background: #4cd964;
+	color: #fff;
 	text-shadow:none;
+}
+
+a.btn.btn-default, .btn-primary {
+	border: 2px solid #4cd964;
+	background: #4cd964;
+	color: #fff;
+	text-shadow:none;
+}
+
+a.btn.btn-default:hover, .btn-primary:hover, .btn-default:hover {
+	border: 2px solid #4cd964;
+	opacity: 0.9;
+	background: #4cd964;
+	color: #fff;
+}
+
+.btn.btn-primary.btn-lg.signin{
+	border: none;
+	background: #ff9500;
+	color: #fff;
+	text-shadow:none;
+	border-radius: 4px;
+}
+
+.btn.btn-primary.btn-lg.signup{
+	border: none;
+	background: #c643fc;
+	color: #fff;
+	text-shadow:none;
+	border-radius: 4px;
+}
+
+.btn.btn-primary.btn-lg.signin:hover{
+	opacity: 0.9;
+	border: none;
+	background: #ff9500;
+}
+
+.btn.btn-primary.btn-lg.signup:hover{
+	opacity: 0.9;
+	border: none;
+	background: #c643fc;
 }
 
 hr{
-	border-top: 1px solid #3aabc0;
+	border-top: 1px solid #4cd964;
 }
 
 .services{
@@ -135,7 +190,7 @@ h1, h3{
 }
 
 .page-header {
-	border-bottom: 1px solid #ed145b;
+	border-bottom: 1px solid #4cd964;
 }
 
 .alert-warning {
@@ -145,13 +200,31 @@ h1, h3{
 }
 
 .alert-warning a{
-	color: #ed145b;
+	color: #3aabc0;
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: #ed145b;
+	border: none;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #3aabc0;
+}
+
+
+
+
+
+
+.signin-a, .signin-b, .signup-a, .signup-b, .reset, .edit-prof, .social, .password{
+	border: 2px solid #4cd964;
+	padding: 20px;
+}
+
+.signin-b-form, .signup-b-form, .reset-form, .edit-prof-form, .password-form{
+	padding: 0 20px;
+}
+
+.signin-a img, .signup-a img{
+	width:80px;
 }
